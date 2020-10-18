@@ -25,3 +25,12 @@ Pelda kimenet:
 [0, 35, 1]
 
 """
+x=int(input())
+list = []
+i = 0
+while x > i:
+    y = int(input())
+    if y >= 0:
+        list.append(y)
+        i += 1
+print(list)
