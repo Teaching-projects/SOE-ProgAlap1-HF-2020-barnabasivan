@@ -1,10 +1,10 @@
 """
 Kerj be ket egesz szamot, ird ki a nagyobbikat.
 """
-x=int(input())
 y=int(input())
-if x>y:
-    print(x)
-else:
+x=int(input())
+if y>x:
     print(y)
+else:
+    print(x)  
 
