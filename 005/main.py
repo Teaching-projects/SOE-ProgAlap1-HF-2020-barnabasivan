@@ -18,4 +18,15 @@ Pl.:
 48  (66)  -->  12
 49 (100)  -->  1
 """
+a = 0
+b = 0
+egeszszam = int(input())
+
+while egeszszam > 0:
+    a = egeszszam % 7
+    b += a
+    egeszszam = egeszszam // 7
+print(b)
+
+
 
