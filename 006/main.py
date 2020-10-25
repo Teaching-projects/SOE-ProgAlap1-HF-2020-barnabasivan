@@ -26,3 +26,11 @@ Kimenet:
 5
 6
 """
+szám = int(input())
+list = []
+
+while szám != 0:
+    if szám not in list:
+        list.append(szám)
+    szám = int(input())
+print (list)
