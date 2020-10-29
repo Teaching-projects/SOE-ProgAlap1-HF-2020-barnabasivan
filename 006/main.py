@@ -33,4 +33,10 @@ index = 0
 while szám != 0:
     if szám not in list:
         list.append(szám)
-    szám = int(input())
+        szám = int(input())
+    else:
+        szám = int(input())
+
+while index < len(list):
+    print(list[index])
+    index = index + 1
