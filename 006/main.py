@@ -28,6 +28,7 @@ Kimenet:
 """
 szám = int(input())
 list = []
+index = 0
 
 while szám != 0:
     if szám not in list:
